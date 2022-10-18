@@ -1,8 +1,8 @@
 # antel-f660-admin
 
-The Wi-Fi module of ZTE F660 can't provide speeds above 20-30 Mbps, which is ridiculous having 400 Mbps fiber. Optical modems are not as easy to replace as regular routers. So, the most optimal solution is to configure the ISP modem to the bridge mode and use something more suitable as a Wi-Fi AP.
-
 This tiny Python script helps brute-forcing ZTE F660 optical modem WebGUI to acquire admin rights. Built-in credentials are known to be used by Antel, an Uruguayan fiber optic provider.
+
+The Wi-Fi module of ZTE F660 can't provide speeds above 20-30 Mbps, which is ridiculous having 400 Mbps fiber. Optical modems are not as easy to replace as regular routers. So, the most optimal solution is to configure the ISP modem to the bridge mode and use something more suitable as a Wi-Fi AP.
 
 Default credentials are `user:user`; almost no settings are available there. `installador` account is a bit more powerful but still useless. Our target is `admin`.
 
